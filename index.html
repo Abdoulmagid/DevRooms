@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Abdoul Magid Souley">
+    <meta name="description" content="Getting Started with Bootstrap 5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>DevRooms - Accueil</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4">
+        <div class="container">
+            <a href="#" class="navbar-brand">DevRooms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navmenu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What you'll learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of NavBar -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a DevRooms <span class="text-warning">Member</span> </h1>
+                    <p class="lead my-4">
+                        Our mission is to teach you technologies that will let you developp strong web applications such as Facebook for social networks, github for collaboration, etc
+                    </p>
+                    <button class="btn btn-primary btn-md">Become a member</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg">
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
